@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+//plays 13 different sounds -karan
     @IBAction func playSound(_ sender: UIButton) {
         print("button clicked")
         let label = sender.titleLabel?.text
@@ -68,4 +69,4 @@ class ViewController: UIViewController {
         }
     }
 }
-
+//This is a good proj
